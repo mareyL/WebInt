@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Manifest -->
+    <link rel="manifest" href="./manifest.json">
+
+    <!-- Icon -->
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="apple-touch-startup-image" href="./images/icon-512x512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="./images/icon-192x192.png" />
+
+    <!-- Responsive -->
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        
+    <!-- Title -->
+    <title>Plantify</title> 
+
+    <!-- Style sheet-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div id="main_page">
+    <section id='section'>
+        <div class="small_button" id="camera_button">Camera<img src="./images/camera.png" class="image"></img></div>
+        <div class="small_button" id="gallery_button">Gallery<img src="./images/image.png" class="image"></div>
+    </section>
+
+    <section id="big_section"><div class="big_button"><h1>Plantify</h1><img src="./images/plant.png" class="big_image"></div></section>
+
+    <section id="small_section"><button class="little_button" id="contact">Contact us</button><button class="little_button" id="developper">Developper</button></section>
+    </div>
+
+    <div id="camera_page">
+        <video autoplay id="video"></video>
+        <img src="./images/return.png" id="return">
+        <img src="./images/take_picture.png" id="take_picture">
+    </div>
+
+    <div id="screen_page">
+        <img id="picture">
+        <img src="./images/left_arrow.png" id="left_arrow">
+        <div id="retake">Retake</div>
+        <div id="send">Send</div>
+    </div>
+
+    <div id="gallery_page">
+        <input type="file" accept="image/x-png,image/jpeg,image/gif" id="input"/>
+        <img id="return2" src="./images/left_arrow.png">
+    </div>
+
+    <div id="plant_page">
+        <div class="img_container">
+            <img id="plant_image">
+        </div>
+        <p id="plant_text"></p>
+        <img id="left_bot_arrow" src="./images/left_arrow.png">
+        <img id="right_bot_arrow" src="./images/right_arrow.png">
+    </div>
+
+    <div id="disease_page">
+        <div class="img_container">
+            <img id="disease_image">
+        </div>
+        <p id="disease_text"> 
+        </p>
+        <img id="left_bot_arrow_dis" src="./images/left_arrow.png">
+    </div>
+
+    <script>
+        "serviceWorker" in navigator && navigator.serviceWorker.register("sw.js")
+    </script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
+    <script type="module" src="./script.js"></script>
+</body>

@@ -1,0 +1,20 @@
+{
+    "plants": [
+        {
+            "id": 0,
+            "name": "dandelion",
+            "plant_image": "https://etherealwellness.files.wordpress.com/2011/03/dandelion-2.jpg",
+            "plant_text": "Taraxacum is a large genus of flowering plants in the family Asteraceae, which consists of species commonly known as dandelions. The genus is native to Eurasia and North America, but the two commonplace species worldwide, T. officinale and T. erythrospermum, were introduced from Europe and now propagate as wildflowers. Both species are edible in their entirety. The common name dandelion (from French dent-de-lion, meaning 'lion's tooth') is given to members of the genus. Like other members of the family Asteraceae, they have very small flowers collected together into a composite flower head. Each single flower in a head is called a floret. In part due to their abundance along with being a generalist species, dandelions are one of the most vital early spring nectar sources for a wide host of pollinators. Many Taraxacum species produce seeds asexually by apomixis, where the seeds are produced without pollination, resulting in offspring that are genetically identical to the parent plant.",
+            "disease_image": "",
+            "disease_text": ""
+        },
+        {
+            "id": 1,
+            "name": "rose",
+            "plant_image": "http://3.bp.blogspot.com/-PTMcU3iDimQ/UFAkJx8jQOI/AAAAAAAADEk/67ZUjOWUIrU/s1600/rose+sybmolism.jpg",
+            "plant_text": "Garden roses are predominantly hybrid roses that are grown as ornamental plants in private or public gardens. They are one of the most popular and widely cultivated groups of flowering plants, especially in temperate climates. Numerous cultivars have been produced, especially over the last two centuries, though roses have been known in the garden for millennia beforehand. While most garden roses are grown for their flowers, some are also valued for other reasons, such as having ornamental fruit, providing ground cover, or for hedging.",
+            "disease_image": "https://www.thespruce.com/thmb/9M13UYN47fnhwJxY0wo9k8pgXvo=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/dealing-with-rose-diseases-1403039-hero-3ac8fa9f6d1746f393c8db13fe1dcbb5.jpg",
+            "disease_text": " Black Spot: Black spot is a fungus that is very common during humid weather because it is a waterborne disease. As its name implies, small black spots form on leaves and stems, eventually weakening the plant and causing the leaves to drop.<br> Treatment: Choose black spot-resistant varieties and be meticulous about sanitation. Water the roots of the rose, avoiding the foliage. Water in the morning, so that splashed leaves have time to dry off. If black spot is an annual problem, try a dormant spray of lime sulfur at the end of the season and again in early summer. Once black spot appears, it is hard to stop. Neem oil and sprays containing potassium bicarbonate are somewhat effective. "
+        }
+    ]
+}

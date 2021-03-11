@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="WebInt_lab3_css.css">
+</head>
+<body>
+
+<h1 class="title">Video Streaming Plateform Name</h1>
+
+
+<aside class="recomendations">
+  <canvas id="canvas">
+</canvas>
+    <nav>
+        <header>
+            <h2>Other videos</h2>
+        </header>
+       <ul>
+        <li>video1</li>
+        <li>video2</li>
+        <li>video3</li>
+      </ul>
+    </nav>
+</aside>
+
+
+<article class="video_article">
+  <div class="video_div">
+      <video id="video" controls
+          src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Elaphants_Dream.ogv">
+          <p>Your browser does not support HTML5 video.</p>
+      </video>
+  </div>
+    <footer>
+        <h2>Video title</h2>
+    </footer>
+</article>
+
+
+<form id="url_form" method="dialog">
+    <label>URL of new video:<input name="url" type="url"></label>
+    <button type="submit">Go to new video</button>
+    <script src="url_form.js"></script>
+</form>
+
+<form id="seek_form" method="dialog">
+  <label>Seeks for second:<input name="seek" type="integer"></label>
+  <button type="submit">Seek</button>
+  <script src="seek_form.js"></script>
+</form>
+
+<form id="preview_form" method="dialog">
+  <button type="submit">Preview</button>
+  <script src="preview_form.js"></script>
+</form>
+
+<form id="rotate_form" method="dialog">
+  <label>Rotate of <input name="rotation" type="integer">degrees</label>
+  <button type="submit">Rotate</button>
+  <script src="rotate_form.js"></script>
+</form>
+
+<label><input id="controls_checkbox" type="checkbox">Hide video controls</label>
+<script src="controls_checkbox.js"></script>
+
+<button id="mirror_button">Mirror video</button>
+
+<div></div>
+
+<canvas id="mirror_canvas">
+</canvas>
+<script src="mirror_button.js"></script>
+
+<div></div>
+
+<video class="video_circle" src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Elaphants_Dream.ogv" controls></video>
+
+<article class="comments">
+<header>
+	<h3>Video comments</h3>
+</header>
+<section class="user_comments" id="user_comments">
+	<article class="user_comment">
+      <p>comment1</p>
+      <footer>
+        <p>
+          <time datetime="2018-05-16 17:00">11/8/2018</time>,
+          user1
+        </p>
+      </footer>
+    </article>
+    <article class="user_comment">
+      <p>comment2</p>
+      <footer>
+        <p>
+          <time datetime="2018-05-16 17:00">5/16/2019</time>,
+          user2
+        </p>
+      </footer>
+    </article>
+</section>
+<footer>
+  <button id="comment_button">Add comment</button>
+  <form class="not_logged_form" id="not_logged_form" method="dialog">
+    <label>First name:<input name="fname" type="text" required></label><br>
+    <label>Last name:<input name="lname" type="text" required></label><br>
+    <label>E-mail:<input name="email" type="email" required></label><br>
+    <label>Phone number:<input name="tel" type="tel" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label><small>Format: 123-456-7890</small><br>
+    <button type="submit">Log in</button>
+  </form>
+  <form class="logged_form" id="logged_form" method="dialog">
+    <label>Comment:<input name="comment" required type="text"></label><br>
+    <button type="submit">Comment</button>
+  </form>
+  <script src="comment.js"></script>
+</footer>
+</article>
+
+</body>
+</html>

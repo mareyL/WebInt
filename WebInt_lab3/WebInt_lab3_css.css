@@ -1,0 +1,53 @@
+.title{
+    text-align: center;
+}
+
+.user_comment{
+    border: 2px solid grey;
+	padding: 4px;
+}
+
+body{
+    padding-left: 3%;
+    padding-right: 3%;
+    background: #282828;
+    color: white;
+}
+
+.recomendations{
+    width: 25%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+}
+
+.video_article{
+    width: 70%;
+}
+
+#video{
+    width: 100%;
+}
+
+.video_div{
+    width: 100%;
+    height: 100%;
+}
+
+#mirror_canvas{
+    width: 40%;
+    transform: rotateY(180deg);
+}
+
+.video_circle{
+    border-radius: 50%;
+    width: 20%;
+}
+
+.not_logged_form{
+    visibility: hidden;
+}
+
+.logged_form{
+    visibility: hidden;
+}
